@@ -2,11 +2,14 @@ body{
     margin: 2em 2em;
 }
 
-#face{
+.face{
     position: absolute;
+/*
     top: 50%;
     transform: translateY(-50%);
-    width: 8vw;
+*/
+    max-width: 100%;
+    height: auto;
 }
 
 #line{
@@ -17,13 +20,13 @@ body{
     margin-bottom: 1.2em;
 }
 
-#name{
-    font-size: 4vw;
+.name{
+    font-size: 4em;
     color: #2d3c49;
 }
 
-#title{
-    font-size: 1.5vw;
+.title{
+    font-size: 1.5em;
     color: #2d3c49;
 }
 
@@ -93,4 +96,16 @@ body{
 
 .section2{
     
+}
+
+@media only screen and (min-screen-device-width: 760px){
+    .face{
+        text-align: center;
+    }
+    .name{
+        text-align: left;
+    }
+    .title{
+        text-align: right;
+    }
 }
