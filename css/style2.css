@@ -1,3 +1,24 @@
 .face{
-    padding-top: 5%;
+    padding-top: 1.5%;
+}
+
+@media (max-width: 768px){
+    .name{
+        font-size: 2em;
+    }
+    .title{
+        font-size: 0.75em;
+    }    
+}
+
+.occupation{
+    padding-top: 1.5%; 
+}
+
+.name{
+    font-size: 4em;
+}
+
+.title{
+    font-size: 1.5em;
 }
