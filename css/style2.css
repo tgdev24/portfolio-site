@@ -1,18 +1,11 @@
 .face{
-    padding-top: 1.5%;
-}
-
-@media (max-width: 768px){
-    .name{
-        font-size: 2em;
-    }
-    .title{
-        font-size: 0.75em;
-    }    
+    padding: 1.5%;
+    
 }
 
 .occupation{
-    padding-top: 1.5%; 
+    padding-top: 1.5%;
+    text-align: right;
 }
 
 .name{
@@ -22,3 +15,40 @@
 .title{
     font-size: 1.5em;
 }
+
+@media (max-width: 990px){
+    .face{
+        padding-top: 5%;
+        text-align: center;
+    }
+    .name{
+        font-size: 3em;
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+    }
+    .occupation{
+        text-align: center;
+    }
+}
+
+@media (max-width: 412px){
+    .face{
+        text-align: center;
+    }
+/*
+    .faceimg{
+        width: 90%;
+    }
+*/
+    .name{
+        font-size: 2em;
+        text-align: center;
+    }
+    .title{
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
