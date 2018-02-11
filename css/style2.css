@@ -1,3 +1,4 @@
+
 .face{
     padding: 1.5%;   
 }
@@ -74,11 +75,6 @@ nav ul li a {
     .face{
         text-align: center;
     }
-/*
-    .faceimg{
-        width: 90%;
-    }
-*/
     .name{
         font-size: 2em;
         text-align: center;
