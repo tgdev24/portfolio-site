@@ -1,19 +1,7 @@
 
-.face{
-    padding: 1.5%;   
-}
-
-.occupation{
-    padding-top: 1.5%;
-    text-align: right;
-}
-
-.name{
-    font-size: 4em;
-}
-
-.title{
-    font-size: 1.5em;
+.header {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 nav {
@@ -33,6 +21,7 @@ nav ul li {
     list-style: none;
     float: left;
     text-align: center;
+    font-size: 1.0em;
     border-left: 1px solid #fff;
     border-right: 1px solid #ccc;
     width: 16.6667%; /* fallback for non-calc() browsers */
@@ -51,38 +40,67 @@ nav ul li a {
     padding: 10px 0;
 }
 
+hr {
+    border: none;
+    height: 0.3vh;
+    color: #222;
+    background-color: #222;
+}
+
+.face {
+    padding: 1.5%;   
+}
+
+.occupation {
+    padding-top: 1.5%;
+    text-align: right;
+}
+
+.name {
+    font-size: 4em;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+
+
 @media (max-width: 990px){
-    .face{
+    .face {
         padding-top: 5%;
         text-align: center;
     }
     
-    .name{
+    .name {
         font-size: 3em;
         text-align: center;
     }
     
-    .title{
+    .title {
         text-align: center;
     }
     
-    .occupation{
+    .occupation {
         text-align: center;
+    }
+    
+    nav ul li {
+        font-size: 1.2em;
     }
 }
 
 @media (max-width: 412px){
-    .face{
-        text-align: center;
-    }
-    .name{
+    .name {
         font-size: 2em;
-        text-align: center;
     }
     
-    .title{
+    .title {
         font-size: 1em;
-        text-align: center;
+    }
+    
+    nav ul li {
+        font-size: 0.8em;
     }
 }
 
