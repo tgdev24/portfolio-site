@@ -2,4 +2,4 @@
 
 Description: personal portfolio website and hosting location is specified in header.
 
-![alt text](http://image.png)
+![alt text](image.png)
